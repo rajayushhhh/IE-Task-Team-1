@@ -67,11 +67,17 @@ To make the VPN decentralized, trustless, and trustworthy, so no single company 
 
 
 **Blockchain** : A chain of blocks that stores data and unique hashs to identify and everyone can see but no one can change.
+
 **Smart Contract** : code on blockchain that runs automatically when conditions are met.
+
 **Gas** : A small fee wee pay to perform actions on blockchain.
+
 **Wallet Address** : our blockchain account no. that we used to do transactions.
+
 **Private Key** : a secret password that proves our ownership of wallet
+
 **Transaction** : record of actions(send/recive crypto).
+
 **Deployment** : uploading of smart contract on blockchain.
 
 ---
