@@ -13,15 +13,6 @@
 
 ### **Top 5 Protocols Observed**
 
-| Rank | Protocol | % Packets | % Bytes | Description |
-|------|-----------|------------|----------|--------------|
-| 1 | Internet Protocol Version 4 (IPv4) | 73.6% | 2.0% | Main protocol used for sending data between devices on the internet. |
-| 2 | Transmission Control Protocol (TCP) | 71.8% | 2.3% | Ensures reliable, ordered delivery of data packets. |
-| 3 | Transport Layer Security (TLS) | 17.5% | 83.1% | Encrypts data for secure communication (used in HTTPS). |
-| 4 | Internet Protocol Version 6 (IPv6) | 17.3% | 9.8% | Newer version of IP with larger address space and improved security. |
-| 5 | Address Resolution Protocol (ARP) | 8.0% | 0.3% | Maps IP addresses to physical MAC addresses within the local network. |
-
-### **Summary**
 The top five protocols observed were IPv4 (73.6%), TCP (71.8%), TLS (17.5%), IPv6 (17.3%), and ARP (8.0%), showing that most network traffic was secure and based on IPv4 over TCP.
 
 - **IPv4** → like the postal system, it delivers data to the correct address.  
@@ -29,8 +20,6 @@ The top five protocols observed were IPv4 (73.6%), TCP (71.8%), TLS (17.5%), IPv
 - **TLS** → encrypts everything, keeping data private.  
 - **IPv6** → newer version of IPv4 with more capacity.  
 - **ARP** → works like a local phonebook for IP-to-MAC mapping.  
-
-Together, these make sure our internet traffic is **delivered correctly, securely, and efficiently**.
 
 ---
 
@@ -99,14 +88,12 @@ The three-way handshake makes sure both devices:
 3. Can start sending data.  
 
 Without this, packets might get lost or mixed up.  
-It’s like two people saying **“hello”**, **“hello back”**, **“ok, let’s chat”** before starting a conversation.
 
 ---
 
 ## **4️⃣ HTTP vs HTTPS in Packets**
 
-### **HTTP Traffic**
-
+### HTTP
 **Filter Used:**  http
 
 
@@ -132,8 +119,7 @@ HTTP is **not encrypted**, so anyone capturing the packets can read everything.
 
 ---
 
-### **HTTPS (TLS/SSL) Traffic**
-
+### **HTTPS
 **Filter Used:**  tls
 
 I couldn’t read any of the content — it was all encrypted binary data.
@@ -163,17 +149,6 @@ Wireshark, as an outsider, can’t decode what’s inside the encrypted packets.
 
 ---
 
-## ✅ **Final Summary**
 
-This Wireshark analysis helped observe how data flows through different network layers:
-
-- **Protocol Hierarchy** showed IPv4 + TCP dominate most traffic.  
-- **DNS Queries** translated website names into IP addresses.  
-- **TCP Handshake** demonstrated how reliable connections are started.  
-- **HTTP vs HTTPS** revealed how encryption hides web content for security.
-
-Together, these analyses show how the internet ensures **communication is fast, organized, and secure** — from domain lookup to encrypted data exchange.
-
----
 
 
